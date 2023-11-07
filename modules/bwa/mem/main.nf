@@ -1,7 +1,7 @@
 process BWA_MEM {
     tag "$meta.id"
 
-    memory = 10.GB
+    memory = 10.G
     cpus = 12
 
     container "staphb/bwa:latest" 
