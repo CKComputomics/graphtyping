@@ -1,8 +1,9 @@
 process CHECK_SAMPLESHEET {
     tag "$samplesheet"
 
-    memory '0.5 GB'
-
+    memory = '1.GB'
+    cpus = 1
+    
     container "quay.io/biocontainers/python:3.8.3"
 
     input:

@@ -1,6 +1,7 @@
 process SAM_2_BAM {
 
-    memory '10 GB'
+    memory = '10.GB'
+    cpus = 12
 
     container "staphb/samtools:latest"
     containerOptions = "--user 1057:1001"
