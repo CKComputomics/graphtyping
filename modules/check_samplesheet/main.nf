@@ -2,7 +2,7 @@ process CHECK_SAMPLESHEET {
     tag "$samplesheet"
 
     memory = '1.GB'
-    cpus = 1
+    cpus = 12
     
     container "quay.io/biocontainers/python:3.8.3"
 
