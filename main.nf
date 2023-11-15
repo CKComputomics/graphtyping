@@ -2,8 +2,8 @@
 
 nextflow.enable.dsl = 2
 
-params.graphfasta = "/scratch/projects/Q2755-RTP-Pangenome-GEpipeline/00_raw/Wm82_ref/glyma.Wm82.gnm4.4PTR.genome_main.fna"
-params.samplesheet = "/scratch/projects/Q2755-RTP-Pangenome-GEpipeline/9.0_CodeBase/genotyping/samplesheet.csv"
+params.graphfasta = "data/Wm82_chr1.fasta"
+params.samplesheet = "data/samplesheet.csv"
 
 include { INPUT_TEST } from './workflows/input_test.nf'
 
