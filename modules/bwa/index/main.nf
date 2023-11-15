@@ -1,7 +1,7 @@
 process BWA_INDEX {
 
     memory = '10.GB'
-    cpus = 1
+    cpus = 12
 
     container "staphb/bwa:latest"
     containerOptions = "--user 1057:1001"
