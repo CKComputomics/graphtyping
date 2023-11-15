@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+TRB-01A,/scratch/projects/Q2755-RTP-Pangenome-GEpipeline/00_raw/01_WGS/TRB-01A_R1.fastq.gz,/scratch/projects/Q2755-RTP-Pangenome-GEpipeline/00_raw/01_WGS/TRB-01A_R2.fastq.gz
