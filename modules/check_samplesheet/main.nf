@@ -14,6 +14,7 @@ process CHECK_SAMPLESHEET {
 
     script: // currently place holder - check nf-core cheipseq pipeline
     """
-    cp $samplesheet samplesheet.valid.csv
+    ls -alh
+    #cp $samplesheet samplesheet.valid.csv
     """
 }
