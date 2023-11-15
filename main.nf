@@ -2,8 +2,8 @@
 
 nextflow.enable.dsl = 2
 
-params.graphfasta = "data/Wm82_chr1.fasta"
-params.samplesheet = "data/samplesheet.csv"
+params.graphfasta = "/scratch/playground/chriskub/graphtyping/data/Wm82_chr1.fasta"
+params.samplesheet = "/scratch/playground/chriskub/graphtyping/data/samplesheet.csv"
 
 include { INPUT_TEST } from './workflows/input_test.nf'
 
